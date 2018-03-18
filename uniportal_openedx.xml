@@ -11,20 +11,28 @@
             <ds:KeyInfo>
                 <ds:X509Data>
                     <ds:X509Certificate>
-MIIC5jCCAk+gAwIBAgIEb44pnjANBgkqhkiG9w0BAQsFADCBpTEOMAwGA1UEBhMFQ2hpbmExEjAQ
-BgNVBAgTCUd1YW5nZG9uZzEqMCgGA1UEBxMhQmFudGlhbi5Mb25nZ2FuZ0Rpc3RyaWN0LlNoZW56
-aGVuMSIwIAYDVQQKExlIdWF3ZWlUZWNobm9sb2dpZXNDby5MdGQuMQ4wDAYDVQQLEwVCUC5JVDEf
-MB0GA1UEAwwWaHVhd2VpX2xlYXJuaW5nX3NlcnZlcjAeFw0xODAzMTIwNjIzMjNaFw00NTA3Mjcw
-NjIzMjNaMIGlMQ4wDAYDVQQGEwVDaGluYTESMBAGA1UECBMJR3Vhbmdkb25nMSowKAYDVQQHEyFC
-YW50aWFuLkxvbmdnYW5nRGlzdHJpY3QuU2hlbnpoZW4xIjAgBgNVBAoTGUh1YXdlaVRlY2hub2xv
-Z2llc0NvLkx0ZC4xDjAMBgNVBAsTBUJQLklUMR8wHQYDVQQDDBZodWF3ZWlfbGVhcm5pbmdfc2Vy
-dmVyMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrel7i2pHtCwfTmoyiq6unP2yQZIzwZFEB
-fahuMay+pgebssq1qXdeEwp5EjTax7HqTAh5zZufeKSh5LZ9GBpOzkvEH4polQa6JgDB1JL98Zcu
-aRb2ze2wRjonUFQUEEI/4bQy9wK9exmA9hCA3bkZF5BSONShSc7oLa1Qhc4GBwIDAQABoyEwHzAd
-BgNVHQ4EFgQUp9m8Bsa5Odd5Jehm4WGcC2jg+qIwDQYJKoZIhvcNAQELBQADgYEAb7dsTrT+a5KB
-bFzQxs03EsordsEBChqc9NGGQKD0EcTQ8vhBwZQYYS2ty7UdIvhigrLZci4mi0x+KafxhNTnCtAB
-5IvGWJBjDSzxmffmC+/UrmbVfy2RCcneI9AsVjESyUC/mM4OE2hiqkptkS/r14e7wNKJ4dBXEnFx
-5xVXYiw=
+MIIEDTCCAvWgAwIBAgIEfzTyuTANBgkqhkiG9w0BAQsFADCBtjELMAkGA1UEBhMC
+Q04xEjAQBgNVBAgTCUd1YW5nZG9uZzEsMCoGA1UEBxMjQmFudGlhbiwgTG9uZ2dh
+bmcgRGlzdHJpY3QsU2hlbnpoZW4xJjAkBgNVBAoTHUh1YXdlaSBUZWNobm9sb2dp
+ZXMgQ28uLCBMdGQuMRkwFwYDVQQLExBIdWF3ZWlVbml2ZXJzaXR5MSIwIAYDVQQD
+DBlodWF3ZWlfb3BlbmVkeF9wcm9kdWN0aW9uMB4XDTE4MDMxMjAzMjMwMVoXDTQ1
+MDcyNzAzMjMwMVowgbYxCzAJBgNVBAYTAkNOMRIwEAYDVQQIEwlHdWFuZ2Rvbmcx
+LDAqBgNVBAcTI0JhbnRpYW4sIExvbmdnYW5nIERpc3RyaWN0LFNoZW56aGVuMSYw
+JAYDVQQKEx1IdWF3ZWkgVGVjaG5vbG9naWVzIENvLiwgTHRkLjEZMBcGA1UECxMQ
+SHVhd2VpVW5pdmVyc2l0eTEiMCAGA1UEAwwZaHVhd2VpX29wZW5lZHhfcHJvZHVj
+dGlvbjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALQurXbd0qdlC3HB
+blSMVr2Ig11pfzHDMOjbXqap1K151CTd9A1S5aB1rumT9YGPnvVVTKxRHBHeHcep
++BntRNLC2/A7vt4Hy6DoPqoC37zTnINYWIsuDxQF4uWrp990WASni8S456DTAHtf
+DLPnYOSPjf4yXkoYxonIaTYuuLBwVTPumQ2Tf5oDL1aHtvRcc96nELCi3CWtt1MF
+KHye6lpxE3o4H6MbI8d/po+/nRZL9k4Bz8eih5Lh5EG930sT6YJ0gCpdEDF73774
+Hstqo4Aag4usfu1UHASv8wzKdzjQs8ugrPJ9uQWWRW/UiNQs/M5eC6POi3eCDEpa
+z9RQrV0CAwEAAaMhMB8wHQYDVR0OBBYEFN6XYLxv5LWkgJe8fwses+e4+EBbMA0G
+CSqGSIb3DQEBCwUAA4IBAQBAnZMngntyuJv6Gg41IFd54lPgmaSqy2wUmpBTFQw4
+1zT/5ytUU5G7PpKRULj0wKGuJq0vh2JYlrP+6kN2TeV8y/Vkn6iQj82YOOd4Pcz1
+E6xpFQkLk34mzKixrAnaOOC1HjKnQgpOfPIjQy2t39x5nyXzZzGS0AY7clGlgsvA
+FBktOwNPU5fEY/e6Po0tj6J41VnK+r5qd+se0yro4Yb9qa3648CnL0FVG9gFHj+n
+9HANTA1VMu7jSUethG8IYMEH8G0trZtmrs1D44qY71JT8B+o5uQIGAp1rc0gj2Cq
+Xq9Nhs+/o23BN3XWLxAYWqZvpEevbSEsomJMBGbwxJ/n
                     </ds:X509Certificate>
                 </ds:X509Data>
             </ds:KeyInfo>
@@ -34,9 +42,9 @@ bFzQxs03EsordsEBChqc9NGGQKD0EcTQ8vhBwZQYYS2ty7UdIvhigrLZci4mi0x+KafxhNTnCtAB
 
         <ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="http://idp.edx.org:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2"/>
         
-        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://uniportal.huawei.com/saaslogin/logout?issuer=openedx.huawei.com" />
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://uniportal.huawei.com/saaslogin/logout?issuer=openedx.huawei.com" />
         
-        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://uniportal.huawei.com/saaslogin/logout?issuer=openedx.huawei.com" />
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://uniportal.huawei.com/saaslogin/logout?issuer=openedx.huawei.com" />
         
         <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="http://idp.edx.org:8443/idp/profile/SAML2/SOAP/SLO" />
                                    
@@ -62,20 +70,28 @@ bFzQxs03EsordsEBChqc9NGGQKD0EcTQ8vhBwZQYYS2ty7UdIvhigrLZci4mi0x+KafxhNTnCtAB
             <ds:KeyInfo>
                 <ds:X509Data>
                     <ds:X509Certificate>
-MIIC5jCCAk+gAwIBAgIEb44pnjANBgkqhkiG9w0BAQsFADCBpTEOMAwGA1UEBhMFQ2hpbmExEjAQ
-BgNVBAgTCUd1YW5nZG9uZzEqMCgGA1UEBxMhQmFudGlhbi5Mb25nZ2FuZ0Rpc3RyaWN0LlNoZW56
-aGVuMSIwIAYDVQQKExlIdWF3ZWlUZWNobm9sb2dpZXNDby5MdGQuMQ4wDAYDVQQLEwVCUC5JVDEf
-MB0GA1UEAwwWaHVhd2VpX2xlYXJuaW5nX3NlcnZlcjAeFw0xODAzMTIwNjIzMjNaFw00NTA3Mjcw
-NjIzMjNaMIGlMQ4wDAYDVQQGEwVDaGluYTESMBAGA1UECBMJR3Vhbmdkb25nMSowKAYDVQQHEyFC
-YW50aWFuLkxvbmdnYW5nRGlzdHJpY3QuU2hlbnpoZW4xIjAgBgNVBAoTGUh1YXdlaVRlY2hub2xv
-Z2llc0NvLkx0ZC4xDjAMBgNVBAsTBUJQLklUMR8wHQYDVQQDDBZodWF3ZWlfbGVhcm5pbmdfc2Vy
-dmVyMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrel7i2pHtCwfTmoyiq6unP2yQZIzwZFEB
-fahuMay+pgebssq1qXdeEwp5EjTax7HqTAh5zZufeKSh5LZ9GBpOzkvEH4polQa6JgDB1JL98Zcu
-aRb2ze2wRjonUFQUEEI/4bQy9wK9exmA9hCA3bkZF5BSONShSc7oLa1Qhc4GBwIDAQABoyEwHzAd
-BgNVHQ4EFgQUp9m8Bsa5Odd5Jehm4WGcC2jg+qIwDQYJKoZIhvcNAQELBQADgYEAb7dsTrT+a5KB
-bFzQxs03EsordsEBChqc9NGGQKD0EcTQ8vhBwZQYYS2ty7UdIvhigrLZci4mi0x+KafxhNTnCtAB
-5IvGWJBjDSzxmffmC+/UrmbVfy2RCcneI9AsVjESyUC/mM4OE2hiqkptkS/r14e7wNKJ4dBXEnFx
-5xVXYiw=
+MIIEDTCCAvWgAwIBAgIEfzTyuTANBgkqhkiG9w0BAQsFADCBtjELMAkGA1UEBhMC
+Q04xEjAQBgNVBAgTCUd1YW5nZG9uZzEsMCoGA1UEBxMjQmFudGlhbiwgTG9uZ2dh
+bmcgRGlzdHJpY3QsU2hlbnpoZW4xJjAkBgNVBAoTHUh1YXdlaSBUZWNobm9sb2dp
+ZXMgQ28uLCBMdGQuMRkwFwYDVQQLExBIdWF3ZWlVbml2ZXJzaXR5MSIwIAYDVQQD
+DBlodWF3ZWlfb3BlbmVkeF9wcm9kdWN0aW9uMB4XDTE4MDMxMjAzMjMwMVoXDTQ1
+MDcyNzAzMjMwMVowgbYxCzAJBgNVBAYTAkNOMRIwEAYDVQQIEwlHdWFuZ2Rvbmcx
+LDAqBgNVBAcTI0JhbnRpYW4sIExvbmdnYW5nIERpc3RyaWN0LFNoZW56aGVuMSYw
+JAYDVQQKEx1IdWF3ZWkgVGVjaG5vbG9naWVzIENvLiwgTHRkLjEZMBcGA1UECxMQ
+SHVhd2VpVW5pdmVyc2l0eTEiMCAGA1UEAwwZaHVhd2VpX29wZW5lZHhfcHJvZHVj
+dGlvbjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALQurXbd0qdlC3HB
+blSMVr2Ig11pfzHDMOjbXqap1K151CTd9A1S5aB1rumT9YGPnvVVTKxRHBHeHcep
++BntRNLC2/A7vt4Hy6DoPqoC37zTnINYWIsuDxQF4uWrp990WASni8S456DTAHtf
+DLPnYOSPjf4yXkoYxonIaTYuuLBwVTPumQ2Tf5oDL1aHtvRcc96nELCi3CWtt1MF
+KHye6lpxE3o4H6MbI8d/po+/nRZL9k4Bz8eih5Lh5EG930sT6YJ0gCpdEDF73774
+Hstqo4Aag4usfu1UHASv8wzKdzjQs8ugrPJ9uQWWRW/UiNQs/M5eC6POi3eCDEpa
+z9RQrV0CAwEAAaMhMB8wHQYDVR0OBBYEFN6XYLxv5LWkgJe8fwses+e4+EBbMA0G
+CSqGSIb3DQEBCwUAA4IBAQBAnZMngntyuJv6Gg41IFd54lPgmaSqy2wUmpBTFQw4
+1zT/5ytUU5G7PpKRULj0wKGuJq0vh2JYlrP+6kN2TeV8y/Vkn6iQj82YOOd4Pcz1
+E6xpFQkLk34mzKixrAnaOOC1HjKnQgpOfPIjQy2t39x5nyXzZzGS0AY7clGlgsvA
+FBktOwNPU5fEY/e6Po0tj6J41VnK+r5qd+se0yro4Yb9qa3648CnL0FVG9gFHj+n
+9HANTA1VMu7jSUethG8IYMEH8G0trZtmrs1D44qY71JT8B+o5uQIGAp1rc0gj2Cq
+Xq9Nhs+/o23BN3XWLxAYWqZvpEevbSEsomJMBGbwxJ/n
                     </ds:X509Certificate>
                 </ds:X509Data>
             </ds:KeyInfo>
