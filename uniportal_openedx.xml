@@ -82,3 +82,5 @@ E/cf
         </KeyDescriptor>
 
         <AttributeService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="http://idp.edx.org:8443/idp/profile/SAML1/SOAP/AttributeQuery"/>
+    </AttributeAuthorityDescriptor>
+</EntityDescriptor>
