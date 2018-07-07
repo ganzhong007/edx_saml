@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" entityID="edu.huawei.com">
+
+    <IDPSSODescriptor protocolSupportEnumeration="urn:mace:shibboleth:1.0 urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol">
+
+        <Extensions>
+            <shibmd:Scope regexp="false">edx.org</shibmd:Scope>
+        </Extensions>
+
+        <KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIIC5DCCAk2gAwIBAgIEHj8PZzANBgkqhkiG9w0BAQsFADCBpDEOMAwGA1UEBhMFQ2hpbmExEjAQBgNVBAgTCUd1YW5nZG9uZzEqMCgGA1UEBxMhQmFudGlhbi5Mb25nZ2FuZ0Rpc3RyaWN0LlNoZW56aGVuMSIwIAYDVQQKExlIdWF3ZWlUZWNobm9sb2dpZXNDby5MdGQuMQ4wDAYDVQQLEwVCUC5JVDEeMBwGA1UEAwwVaHVhd2VpX29wZW5lZHhfc2VydmVyMB4XDTE4MDMxMjAzNDIyMloXDTQ1MDcyNzAzNDIyMlowgaQxDjAMBgNVBAYTBUNoaW5hMRIwEAYDVQQIEwlHdWFuZ2RvbmcxKjAoBgNVBAcTIUJhbnRpYW4uTG9uZ2dhbmdEaXN0cmljdC5TaGVuemhlbjEiMCAGA1UEChMZSHVhd2VpVGVjaG5vbG9naWVzQ28uTHRkLjEOMAwGA1UECxMFQlAuSVQxHjAcBgNVBAMMFWh1YXdlaV9vcGVuZWR4X3NlcnZlcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAgRDzSQ4wnfIYUZzSEhmhXWM+YQSu0ArlMufgqYVuVM+QoRRCPScfWJW9IqWUCWNwcLznLIB6Ev0wdQFtTVlG5DiqC3WTRCmUqGA/w+W3JBCjxnoUNibjRvApY67dXCiQIgPbb8ydd9tCIGJjdGD0lczGkoXTNWLtC6WcFv8jz48CAwEAAaMhMB8wHQYDVR0OBBYEFGtCGyegb0nlAMc3vdq759CKB5hdMA0GCSqGSIb3DQEBCwUAA4GBAH8gc5v4VYzFqSIjzJbo+CAoaXbaIuj1JxM0RKm9Gk5RGX5ZPxSWofk6yZQnBIU8V7HNCo1Fl9Vxhvz08HhqGYHLHjrD12lIQYkzOA3IP332FLNebDKWKO5oCuR4qnq5UGktjKHFr7ba25xoquMYOZViXbMKJguzJqm1DxONE/cf
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </KeyDescriptor>
+        
+        <ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="http://idp.edx.org:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1"/>
+
+        <ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="http://idp.edx.org:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2"/>
+        
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://uniportal.huawei.com/saaslogin/logout?issuer=edu.huawei.com" />
+        
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://uniportal.huawei.com/saaslogin/logout?issuer=edu.huawei.com" />
+        
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="http://idp.edx.org:8443/idp/profile/SAML2/SOAP/SLO" />
+                                   
+        <NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</NameIDFormat>
+        <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+
+        <SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://uniportal.huawei.com/saaslogin/idp?provider=edu.huawei.com"/>
+        
+        <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://uniportal.huawei.com/saaslogin/idp?provider=edu.huawei.com"/>
+
+        <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://uniportal.huawei.com/saaslogin/idp?provider=edu.huawei.com"/>
+        
+        <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://uniportal.huawei.com/saaslogin/idp?provider=edu.huawei.com"/>
+    </IDPSSODescriptor>
+
+    <AttributeAuthorityDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol">
+
+        <Extensions>
+            <shibmd:Scope regexp="false">edx.org</shibmd:Scope>
+        </Extensions>
+
+        <KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIIC5DCCAk2gAwIBAgIEHj8PZzANBgkqhkiG9w0BAQsFADCBpDEOMAwGA1UEBhMFQ2hpbmExEjAQBgNVBAgTCUd1YW5nZG9uZzEqMCgGA1UEBxMhQmFudGlhbi5Mb25nZ2FuZ0Rpc3RyaWN0LlNoZW56aGVuMSIwIAYDVQQKExlIdWF3ZWlUZWNobm9sb2dpZXNDby5MdGQuMQ4wDAYDVQQLEwVCUC5JVDEeMBwGA1UEAwwVaHVhd2VpX29wZW5lZHhfc2VydmVyMB4XDTE4MDMxMjAzNDIyMloXDTQ1MDcyNzAzNDIyMlowgaQxDjAMBgNVBAYTBUNoaW5hMRIwEAYDVQQIEwlHdWFuZ2RvbmcxKjAoBgNVBAcTIUJhbnRpYW4uTG9uZ2dhbmdEaXN0cmljdC5TaGVuemhlbjEiMCAGA1UEChMZSHVhd2VpVGVjaG5vbG9naWVzQ28uTHRkLjEOMAwGA1UECxMFQlAuSVQxHjAcBgNVBAMMFWh1YXdlaV9vcGVuZWR4X3NlcnZlcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAgRDzSQ4wnfIYUZzSEhmhXWM+YQSu0ArlMufgqYVuVM+QoRRCPScfWJW9IqWUCWNwcLznLIB6Ev0wdQFtTVlG5DiqC3WTRCmUqGA/w+W3JBCjxnoUNibjRvApY67dXCiQIgPbb8ydd9tCIGJjdGD0lczGkoXTNWLtC6WcFv8jz48CAwEAAaMhMB8wHQYDVR0OBBYEFGtCGyegb0nlAMc3vdq759CKB5hdMA0GCSqGSIb3DQEBCwUAA4GBAH8gc5v4VYzFqSIjzJbo+CAoaXbaIuj1JxM0RKm9Gk5RGX5ZPxSWofk6yZQnBIU8V7HNCo1Fl9Vxhvz08HhqGYHLHjrD12lIQYkzOA3IP332FLNebDKWKO5oCuR4qnq5UGktjKHFr7ba25xoquMYOZViXbMKJguzJqm1DxONE/cf
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </KeyDescriptor>
+
+        <AttributeService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="http://idp.edx.org:8443/idp/profile/SAML1/SOAP/AttributeQuery"/>
+    </AttributeAuthorityDescriptor>
+</EntityDescriptor>
